@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/,http://eurekaserver03:8035/eureka/
+
+server:
+  port: 8701
+spring:
+  application:
+    name: cloud-hystrix
+
+feign:
+   hystrix:
+       enabled: true
+
+management:
+ endpoints:
+   web:
+     exposure:
+       include: "*"
+     cors:
+       allowed-origins: "*"
+       allowed-methods: "*"

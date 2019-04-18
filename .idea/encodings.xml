@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudconfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudconfigclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudcoustomer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudcoustomerfeign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudcustomerhystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configeurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaclient02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrixdashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulgetaway" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

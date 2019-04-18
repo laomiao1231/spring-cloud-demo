@@ -1,0 +1,11 @@
+server:
+  port: 8035
+eureka:
+  instance:
+    hostname: eurekaserver03
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/

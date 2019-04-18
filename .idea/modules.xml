@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloudconfig/cloudconfig.iml" filepath="$PROJECT_DIR$/cloudconfig/cloudconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudconfigclient/cloudconfigclient.iml" filepath="$PROJECT_DIR$/cloudconfigclient/cloudconfigclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudcoustomer/cloudcoustomer.iml" filepath="$PROJECT_DIR$/cloudcoustomer/cloudcoustomer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudcoustomerfeign/cloudcoustomerfeign.iml" filepath="$PROJECT_DIR$/cloudcoustomerfeign/cloudcoustomerfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudcustomerhystrix/cloudcustomerhystrix.iml" filepath="$PROJECT_DIR$/cloudcustomerhystrix/cloudcustomerhystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configeurekaserver/configeurekaserver.iml" filepath="$PROJECT_DIR$/configeurekaserver/configeurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaclient02/eurekaclient02.iml" filepath="$PROJECT_DIR$/eurekaclient02/eurekaclient02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver02/eurekaserver02.iml" filepath="$PROJECT_DIR$/eurekaserver02/eurekaserver02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver03/eurekaserver03.iml" filepath="$PROJECT_DIR$/eurekaserver03/eurekaserver03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/hystrixdashboard/hystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudparent.iml" filepath="$PROJECT_DIR$/springcloudparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuulgetaway/zuulgetaway.iml" filepath="$PROJECT_DIR$/zuulgetaway/zuulgetaway.iml" />
+    </modules>
+  </component>
+</project>

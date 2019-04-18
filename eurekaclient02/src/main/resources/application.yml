@@ -1,0 +1,19 @@
+server:
+  port: 8102
+
+spring:
+  application:
+    name: eureka-client-1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/,http://eurekaserver03:8035/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: eureka-client-2
+info:
+    app.name: eureka-client-2
+    company.name: www.eurekacilent02.com
+    build.artifactId: $project.artifactId$
+    build.version:  $project.version$
