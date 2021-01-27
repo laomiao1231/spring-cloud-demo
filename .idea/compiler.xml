@@ -6,39 +6,67 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloudconfig" />
-        <module name="cloudconfigclient" />
-        <module name="cloudcoustomer" />
-        <module name="cloudcoustomerfeign" />
-        <module name="cloudcustomerhystrix" />
-        <module name="configeurekaserver" />
-        <module name="eurekaclient" />
-        <module name="eurekaclient02" />
-        <module name="eurekaserver" />
-        <module name="eurekaserver02" />
-        <module name="eurekaserver03" />
         <module name="hystrixdashboard" />
+        <module name="configeurekaserver" />
+        <module name="stream-cloud-group" />
         <module name="zuulgetaway" />
+        <module name="stream-rabbit-consumption" />
+        <module name="eurekaserver" />
+        <module name="stream-rabbit" />
+        <module name="eurekaclient" />
+        <module name="api-geteway" />
+        <module name="cloudcoustomerfeign" />
+        <module name="eurekaserver03" />
+        <module name="eurekaserver02" />
+        <module name="cloudconfigclient" />
+        <module name="cloudconfig" />
+        <module name="cloudcustomerhystrix" />
+        <module name="eurekaclient02" />
+        <module name="cloudcoustomer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-geteway" target="1.8" />
       <module name="cloudconfig" target="1.8" />
       <module name="cloudconfigclient" target="1.8" />
       <module name="cloudcoustomer" target="1.8" />
-      <module name="cloudcoustomer-feign" target="1.8" />
       <module name="cloudcoustomerfeign" target="1.8" />
       <module name="cloudcustomerhystrix" target="1.8" />
       <module name="configeurekaserver" target="1.8" />
-      <module name="dashboard" target="1.8" />
-      <module name="demo" target="1.8" />
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaclient02" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="eurekaserver02" target="1.8" />
       <module name="eurekaserver03" target="1.8" />
       <module name="hystrixdashboard" target="1.8" />
-      <module name="springcloudparent" target="1.8" />
+      <module name="spring-cloud-parent" target="1.8" />
+      <module name="stream-cloud-group" target="1.8" />
+      <module name="stream-rabbit" target="1.8" />
+      <module name="stream-rabbit-consumption" target="1.8" />
+      <module name="stream-rabbit-consumption2" target="1.8" />
       <module name="zuulgetaway" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-geteway" options="-parameters" />
+      <module name="cloudconfig" options="-parameters" />
+      <module name="cloudconfigclient" options="-parameters" />
+      <module name="cloudcoustomer" options="-parameters" />
+      <module name="cloudcoustomerfeign" options="-parameters" />
+      <module name="cloudcustomerhystrix" options="-parameters" />
+      <module name="configeurekaserver" options="-parameters" />
+      <module name="eurekaclient" options="-parameters" />
+      <module name="eurekaclient02" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="eurekaserver02" options="-parameters" />
+      <module name="eurekaserver03" options="-parameters" />
+      <module name="hystrixdashboard" options="-parameters" />
+      <module name="stream-cloud-group" options="-parameters" />
+      <module name="stream-rabbit" options="-parameters" />
+      <module name="stream-rabbit-consumption" options="-parameters" />
+      <module name="stream-rabbit-consumption2" options="-parameters" />
+      <module name="zuulgetaway" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -26,13 +26,11 @@ public class HystrixController {
 
     @RequestMapping("/hystrix")
     @HystrixCommand(fallbackMethod = "processHystrix")
-    public String hystrix()
-    {
+    public String hystrix() {
         throw new RuntimeException("没有没有对应的信息");
     }
 
-    public String processHystrix()
-    {
+    public String processHystrix() {
         return new String("没有没有对应的信息,null--@HystrixCommand");
     }
 }

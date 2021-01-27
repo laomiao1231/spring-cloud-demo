@@ -1,0 +1,29 @@
+server:
+  port: 9202
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/,http://eurekaserver03:8035/eureka/
+spring:
+  application:
+    name: cloud-steam-consumption
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 120.55.167.238
+                port: 5672
+                username: admin
+                password: admin
+                virtual-host: my_vhost
+      bindings:
+        input:
+          destination: studyExchange #使用的Exchange名称
+          content-type: application/json
+          binder: defaultRabbit #设置绑定消息服务
+          group: ma

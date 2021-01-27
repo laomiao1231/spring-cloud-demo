@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloudconfig" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloudconfigclient" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloudcoustomer" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloudcoustomerfeign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloudcustomerhystrix" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/configeurekaserver" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaclient" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaclient02" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaserver02" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eurekaserver03" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hystrixdashboard" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zuulgetaway" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-geteway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudconfigclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudcoustomer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudcoustomerfeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudcustomerhystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configeurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaclient02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurekaserver03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrixdashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-cloud-group/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbit-consumption/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuulgetaway/src/main/java" charset="UTF-8" />
   </component>
 </project>

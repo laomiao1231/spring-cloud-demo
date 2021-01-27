@@ -3,9 +3,8 @@ server:
 
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
-
+    service-url:
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/,http://eurekaserver03:8035/eureka/
 management:
   endpoints:
     web:

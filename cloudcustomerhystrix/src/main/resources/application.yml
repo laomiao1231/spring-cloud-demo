@@ -10,14 +10,14 @@ spring:
     name: cloud-hystrix
 
 feign:
-   hystrix:
-       enabled: true
+  hystrix:
+    enabled: true
 
 management:
- endpoints:
-   web:
-     exposure:
-       include: "*"
-     cors:
-       allowed-origins: "*"
-       allowed-methods: "*"
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"

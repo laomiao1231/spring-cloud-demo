@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/eurekaserver" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaclient/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaserver02/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaserver03/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaclient02/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudcoustomer/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudcoustomerfeign/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudcustomerhystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/zuulgetaway/pom.xml" />
-        <option value="$PROJECT_DIR$/hystrixdashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudconfig/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudconfigclient/pom.xml" />
-        <option value="$PROJECT_DIR$/configeurekaserver/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/stream-rabbit-consumption2/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

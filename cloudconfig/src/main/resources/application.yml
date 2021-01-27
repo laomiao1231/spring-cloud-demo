@@ -1,6 +1,9 @@
 server:
   port: 3344
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/,http://eurekaserver03:8035/eureka/
 spring:
   application:
     name: config-of-git
@@ -10,3 +13,15 @@ spring:
         git:
           uri: git@github.com:laomiao1231/spring-cloud-config.git
 
+  rabbitmq:
+    host: 120.55.167.238
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: my_vhost
+
+management:
+  endpoints: #暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'

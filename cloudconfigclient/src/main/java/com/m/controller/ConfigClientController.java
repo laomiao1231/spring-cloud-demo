@@ -1,10 +1,12 @@
 package com.m.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RefreshScope
 public class ConfigClientController {
     @Value("${spring.application.name}")
     private String applicationName;
@@ -16,10 +18,8 @@ public class ConfigClientController {
     private String port;
 
     @GetMapping("/config")
-    public String getConfig()
-    {
+    public String getConfig() {
         String str = "applicationName: " + applicationName + "\t eurekaServers:" + eurekaServers + "\t port: " + port;
-        System.out.println("******str: " + str);
         return "applicationName: " + applicationName + "\t eurekaServers:" + eurekaServers + "\t port: " + port;
     }
 }

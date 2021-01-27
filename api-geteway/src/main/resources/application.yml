@@ -1,0 +1,17 @@
+server:
+  port: 9100
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurekaserver:8033/eureka/,http://eurekaserver02:8034/eureka/,http://eurekaserver03:8035/eureka/
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: service-hi
+          uri: https://blog.csdn.net
+          predicates:
+            - Path=/csdn

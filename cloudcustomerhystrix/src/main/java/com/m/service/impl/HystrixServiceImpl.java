@@ -17,6 +17,6 @@ public class HystrixServiceImpl implements HystrixService {
     }
 
     public String hiError(String name) {
-        return "hi,"+name+",sorry,error!";
+        return "hi," + name + ",sorry,error!";
     }
 }

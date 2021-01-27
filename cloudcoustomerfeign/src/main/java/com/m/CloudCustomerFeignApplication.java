@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @EnableFeignClients
 public class CloudCustomerFeignApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(CloudCustomerFeignApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CloudCustomerFeignApplication.class, args);
+    }
 }

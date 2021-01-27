@@ -3,7 +3,17 @@ spring:
     config:
       name: application-client #需要从github上读取的资源名称，注意没有yml后缀名
       profile: dev   #本次访问的配置项
-      label: master   
+      label: master
       uri: http://config-center:3344  #本微服务启动后先去找3344号服务，通过SpringCloudConfig获取GitHub的服务地址
- 
+  rabbitmq:
+    host: 120.55.167.238
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: my_vhost
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'refresh'
